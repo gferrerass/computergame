@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConsolePrint : MonoBehaviour
+public class PrintAndHide : MonoBehaviour
 {   
     // The counter is set to 3 at the start of the game
     private int counter = 3;
+    public Renderer rend;
     // Start is called before the first frame update
     void Start()
     {
